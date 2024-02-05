@@ -60,7 +60,6 @@ function fillCell(ev, ch) {
 
 
 function checkDraw() {
-    debugger;
     if (chars.length == 9 && !hasWinner) {
         Stop();
         box.style = "display:flex"
